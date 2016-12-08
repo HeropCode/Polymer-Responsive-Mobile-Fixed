@@ -4,11 +4,11 @@ Google Polymer(폴리머) 사이트로 실습하는 반응형, 모바일, 고정
 
 ### View Site
 
-1. [Polymer - Fixed(고정형) Web](http://www.herop.me/polymer/)
+1. [Polymer - Fixed(고정형) Web](http://herop.me/polymer/)
 
-1. [Polymer - Mobile(모바일) Web](http://www.herop.me/polymer/mobile)
+1. [Polymer - Mobile(모바일) Web](http://herop.me/polymer/mobile)
 
-1. [Polymer - Responsive(반응형) Web](http://www.herop.me/polymer/responsive)
+1. [Polymer - Responsive(반응형) Web](http://herop.me/polymer/responsive)
 
 ### text
 
