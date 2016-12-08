@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    height: 2000px;
+    color: #444;
+}
+
+.description {
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    background: #802041;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+
+/*Header*/
+header {
+    width: 100%;
+    height: 60px;
+    padding: 16px;
+    background: #EEEEEE;
+    position: fixed;
+    z-index: 1;
+    box-sizing: border-box;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
+}
+
+header .logo {
+    margin-top: -3px;
+    float: left;
+}
+
+/*새롭게 생긴 메뉴들 추가*/
+header .menu_btn {
+    float: left;
+    margin-top: -2px;
+    z-index: 1;
+    cursor: pointer;
+}
+header .menu_btn img {
+    width: 29px;
+    height: 29px;
+}
+header .menu_copy {
+    width: 240px;
+    padding: 12px;
+    background: white;
+    position: absolute;
+    top: 75px;
+    left: 15px;
+    z-index: 1;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    display: none;
+}
+header .menu_copy.on {
+    display: block;
+}
+header .menu_copy li a {
+    line-height: 40px;
+    color: black;
+    text-indent: 44px;
+    display: block;
+    opacity: 0.5;
+}
+header .menu_copy li a:hover {
+    opacity: 1;
+}
+header .menu_copy li .icon {
+    width: 24px;
+    height: 24px;
+    margin: 8px 0 0 4px;
+    position: absolute;
+    display: block;
+}
+header .menu_copy li:nth-child(1) .icon {
+    background: url("../img/menu1.svg") no-repeat 0 0;
+}
+header .menu_copy li:nth-child(2) .icon {
+    background: url("../img/menu2.svg") no-repeat 0 0;
+}
+header .menu_copy li:nth-child(3) .icon {
+    background: url("../img/menu3.svg") no-repeat 0 0;
+}
+header .menu_copy li:nth-child(4) .icon {
+    background: url("../img/menu4.svg") no-repeat 0 0;
+}
+
+header .menu_wrap {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+header .menu {
+    float: left;
+}
+header .menu li {
+    margin: 5px;
+    padding: 7px 10px;
+    float: left;
+}
+header .menu li a {
+    color: #000;
+}
+
+header .version {
+    width: 93px;
+    height: 38px;
+    margin: -5px 5px 5px 5px;
+    color: #757575;
+    font-weight: bold;
+    white-space: nowrap;
+    text-indent: 20px;
+    line-height: 38px;
+    background: #FAFAFA;
+    float: left;
+    cursor: pointer;
+}
+header .version img {
+    vertical-align: middle;
+}
+
+header .search {
+    padding: 2px 8px;
+    float: left;
+    cursor: pointer;
+}
+
+
+
+/*section*/
+section {
+    background: #EEEEEE;
+}
+section .inner {
+    padding: 120px 30px 50px 30px;
+}
+
+section .polymer_ver {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+section .summary {
+    font-size: 16px;
+}
+section .summary h1 {
+    font-size: 40px;
+    line-height: 48px;
+}
+section .summary p {
+    margin: 20px 0;
+    line-height: 32px;
+}
+section .summary .get_polymer {
+    margin-top: 30px;
+}
+
+
+
+/*Desktop Mode Btn*/
+.desktop_mode {
+    height: 40px;
+    margin: 20px 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+    background-color: #595F80;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+}

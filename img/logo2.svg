@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40px" height="34.042px" viewBox="0.583 2.977 40 34.042" style="enable-background:new 0.583 2.977 40 34.042;"
+	 xml:space="preserve">
+<symbol  id="polymer-logo--lockup" viewBox="-80 -20 40 40">
+	<g>
+		<g>
+			<polygon style="fill:#303F9F;" points="-71.908,0 -75.877,-6.875 -71.908,-13.75 -67.938,-6.875 			"/>
+			<polygon style="fill:#3F51B5;" points="-48.092,13.75 -52.063,6.875 -48.092,0 -44.123,6.875 			"/>
+			<polygon style="fill:#7986CB;" points="-44.123,6.875 -56.031,-13.75 -48.092,-13.75 -40.153,0 			"/>
+			<polygon style="fill:#FF4081;" points="-56.031,13.75 -71.908,-13.75 -63.969,-13.75 -48.092,13.75 			"/>
+			<polygon style="fill:#536DFE;" points="-71.908,13.75 -79.848,0 -75.877,-6.875 -63.969,13.75 			"/>
+			<polygon style="fill:#FFFFFF;fill-opacity:0.2;" points="-56.031,13.75 -52.063,6.875 -48.092,13.75 			"/>
+			<polygon style="fill:#FFFFFF;fill-opacity:0.1;" points="-60,6.875 -56.031,13.75 -52.063,6.875 			"/>
+			<polygon style="fill:#FFFFFF;fill-opacity:0;" points="-60,6.875 -56.031,0 -52.063,6.875 			"/>
+			<polygon style="fill-opacity:0.1;" points="-63.969,0 -60,6.875 -56.031,0 			"/>
+			<polygon style="fill-opacity:0.2;" points="-63.969,0 -60,-6.875 -56.031,0 			"/>
+			<polygon style="fill-opacity:0.3;" points="-67.938,-6.875 -63.969,0 -60,-6.875 			"/>
+			<polygon style="fill-opacity:0.4;" points="-67.938,-6.875 -63.969,-13.75 -60,-6.875 			"/>
+			<polygon style="fill-opacity:0.5;" points="-71.908,-13.75 -67.938,-6.875 -63.969,-13.75 			"/>
+			<polygon style="fill:#FFFFFF;fill-opacity:0.2;" points="-71.908,13.75 -67.938,6.875 -63.969,13.75 			"/>
+			<polygon style="fill:#FFFFFF;fill-opacity:0.1;" points="-75.877,6.875 -71.908,13.75 -67.938,6.875 			"/>
+			<polygon style="fill:#FFFFFF;fill-opacity:0;" points="-75.877,6.875 -71.908,0 -67.938,6.875 			"/>
+			<polygon style="fill-opacity:0.1;" points="-79.848,0 -75.877,6.875 -71.908,0 			"/>
+			<polygon style="fill-opacity:0.2;" points="-79.848,0 -75.877,-6.875 -71.908,0 			"/>
+			<polygon style="fill:#FFFFFF;fill-opacity:0;" points="-67.938,-6.875 -71.908,0 -75.877,-6.875 			"/>
+			<polygon style="fill-opacity:0.2;" points="-67.938,-6.875 -71.908,-13.75 -75.877,-6.875 			"/>
+			<polygon style="fill-opacity:0.2;" points="-44.123,6.875 -48.092,13.75 -52.063,6.875 			"/>
+			<polygon style="fill:#FFFFFF;fill-opacity:0;" points="-44.123,6.875 -48.092,0 -52.063,6.875 			"/>
+			<g>
+				<polygon style="fill:#FFFFFF;fill-opacity:0.2;" points="-48.092,0 -44.123,6.875 -40.153,0 				"/>
+				<polygon style="fill:#FFFFFF;fill-opacity:0.1;" points="-48.092,0 -44.123,-6.875 -40.153,0 				"/>
+				<polygon style="fill:#FFFFFF;fill-opacity:0;" points="-52.063,-6.875 -48.092,0 -44.123,-6.875 				"/>
+				<polygon style="fill-opacity:0.1;" points="-52.063,-6.875 -48.092,-13.75 -44.123,-6.875 				"/>
+				<polygon style="fill-opacity:0.2;" points="-56.031,-13.75 -52.063,-6.875 -48.092,-13.75 				"/>
+			</g>
+		</g>
+		<polygon style="fill:none;" points="-40,-20 -80,-20 -80,20 -40,20 		"/>
+	</g>
+</symbol>
+<use xlink:href="#polymer-logo--lockup"  width="40" height="40" id="XMLID_1_" x="-80" y="-20" transform="matrix(0.8375 0 0 -0.8375 71 20.2695)" style="overflow:visible;"/>
+</svg>
