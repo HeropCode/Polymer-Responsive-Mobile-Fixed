@@ -93,7 +93,8 @@ header .search {
 
 /*section*/
 section {
-    min-width: 1032px;
+    /* 모바일 환경에서 section 배경이 짤리는 문제 해결 */
+    min-width: 1064px;
     background: #EEEEEE;
 }
 section .inner {
