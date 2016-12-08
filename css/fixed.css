@@ -93,6 +93,7 @@ header .search {
 
 /*section*/
 section {
+    min-width: 1032px;
     background: #EEEEEE;
 }
 section .inner {

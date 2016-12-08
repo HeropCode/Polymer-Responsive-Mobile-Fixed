@@ -74,9 +74,9 @@ $(function () {
 #### index.html(Fixed Web)
 
 ```js
- // DESKTOP MODE 로 접속했을 경우...
-if (location.href.match(/desktopMode/i)) {
-    // 모바일 환경에서 접속했을 경우...
+// DESKTOP MODE 로 접속하지 않았을 경우에만...
+if (!location.href.match(/desktopMode/i)) {
+    // 모바일 환경에서 접속했는지 체크...
     if (navigator.userAgent.match(/Android/i)
         || navigator.userAgent.match(/webOS/i)
         || navigator.userAgent.match(/iPhone/i)
@@ -85,7 +85,7 @@ if (location.href.match(/desktopMode/i)) {
         || navigator.userAgent.match(/BlackBerry/i)
         || navigator.userAgent.match(/Windows Phone/i)
     ) {
-        // 모바일 페이지로 링크
+        // 모바일 환경에서 접속했다면 모바일 페이지로 링크
         location.href = "http://herop.me/polymer/mobile"
     }
 }
