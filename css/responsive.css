@@ -216,7 +216,6 @@ section .summary .get_polymer {
     }
     header .menu_btn img {
         width: 29px;
-        height: 29px;
     }
     header .version {
         margin-top: -5px;
