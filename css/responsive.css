@@ -1,24 +1,25 @@
 @charset "UTF-8";
 
+
+/* COMMON */
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
-    line-height: 24px;
-    height: 2000px;
+    line-height: 1.7;
     color: #444;
+    min-height: 2000px;
 }
 img {
-    vertical-align: top;
+    vertical-align: middle;
 }
-
 .site_type {
     width: 100%;
     height: 24px;
-    line-height: 24px;
-    color: white;
-    text-align: center;
     background: #802041;
+    color: #FFF;
+    line-height: 24px;
+    text-align: center;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -26,158 +27,148 @@ img {
 }
 
 
-/*Header*/
+/* HEADER */
 header {
     width: 100%;
     height: 80px;
     padding: 16px;
-    background: #EEEEEE;
-    position: fixed;
-    z-index: 1;
     box-sizing: border-box;
+    background: #EEE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
     box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
 }
-
 header .logo {
     margin-top: 4px;
     float: left;
 }
-
-/*새롭게 생긴 메뉴들 추가*/
 header .menu_btn {
-    float: left;
     margin-top: 4px;
-    z-index: 1;
+    float: left;
     cursor: pointer;
+    z-index: 1;
     display: none;
 }
 header .menu_copy {
     width: 240px;
     padding: 12px;
-    background: white;
+    box-sizing: border-box;
+    background: #FFF;
     position: absolute;
     top: 75px;
     left: 15px;
     z-index: 1;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
-    box-sizing: border-box;
     display: none;
 }
 header .menu_copy.on {
     display: block;
 }
 header .menu_copy li a {
-    line-height: 40px;
     color: black;
+    line-height: 40px;
     text-indent: 44px;
     display: block;
     opacity: 0.5;
+    position: relative;
 }
 header .menu_copy li a:hover {
     opacity: 1;
 }
-header .menu_copy li .icon {
+header .menu_copy li a .icon {
     width: 24px;
     height: 24px;
     margin: 8px 0 0 4px;
     position: absolute;
-    display: block;
+    top: 0;
+    left: 0;
 }
-header .menu_copy li:nth-child(1) .icon {
-    background: url("../img/menu1.svg") no-repeat 0 0;
-}
-header .menu_copy li:nth-child(2) .icon {
-    background: url("../img/menu2.svg") no-repeat 0 0;
-}
-header .menu_copy li:nth-child(3) .icon {
-    background: url("../img/menu3.svg") no-repeat 0 0;
-}
-header .menu_copy li:nth-child(4) .icon {
-    background: url("../img/menu4.svg") no-repeat 0 0;
-}
+header .menu_copy li:nth-child(1) a .icon { background: url("../img/menu1.svg"); }
+header .menu_copy li:nth-child(2) a .icon { background: url("../img/menu2.svg"); }
+header .menu_copy li:nth-child(3) a .icon { background: url("../img/menu3.svg"); }
+header .menu_copy li:nth-child(4) a .icon { background: url("../img/menu4.svg"); }
 
 header .menu_wrap {
     position: absolute;
     top: 16px;
     right: 16px;
 }
-
 header .menu {
     float: left;
 }
 header .menu li {
     margin: 5px;
-    padding: 7px 10px;
     float: left;
 }
 header .menu li a {
     color: #000;
+    padding: 7px 10px;
+    display: block;
 }
-
 header .version {
     width: 93px;
     height: 38px;
     margin: 5px;
+    background: #FAFAFA;
     color: #757575;
     font-weight: bold;
-    white-space: nowrap;
-    text-indent: 20px;
     line-height: 38px;
-    background: #FAFAFA;
-    float: left;
+    text-indent: 20px;
+    white-space: nowrap;
     cursor: pointer;
+    float: left;
 }
-header .version img {
-    vertical-align: middle;
-}
-
 header .search {
     margin: 5px;
     padding: 7px 5px;
-    float: left;
     cursor: pointer;
+    float: left;
 }
 
 
 
-/*section*/
+/* SECTION */
 section {
-    background: #EEEEEE;
+    background: #EEE;
 }
 section .inner {
+    /*width: 1032px;*/
     max-width: 1032px;
     margin: 0 auto;
     padding: 150px 16px 80px 16px;
 }
-
 section .polymer_ver {
     width: 416px;
     margin-right: 88px;
     float: left;
 }
-
 section .summary {
     max-width: 528px;
-    font-size: 16px;
     float: left;
 }
 section .summary h1 {
     font-size: 40px;
-    line-height: 48px;
+    line-height: 1.2;
 }
 section .summary p {
     margin: 20px 0;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 2;
+}
+section .summary .btn {
+    float: left;
 }
 section .summary .get_polymer {
     margin-right: 16px;
 }
 
 
-
-@media screen and (max-width: 1100px) {
+/* MEDIA */
+@media (max-width: 1100px) {
     section .inner {
-        max-width: 780px;
+        max-width: 780px;  /* 새로운 가운데 정렬을 위해 */
     }
     section .polymer_ver {
         width: 164px;
@@ -186,7 +177,7 @@ section .summary .get_polymer {
 }
 
 
-@media screen and (max-width: 850px) {
+@media (max-width: 850px) {
     header .menu_btn {
         display: block;
     }
@@ -194,8 +185,8 @@ section .summary .get_polymer {
         display: none;
     }
 
+
     section .inner {
-        max-width: 100%;
         padding: 150px 46px 80px 46px;
     }
     section .polymer_ver {
@@ -208,7 +199,7 @@ section .summary .get_polymer {
 }
 
 
-@media screen and (max-width: 580px) {
+@media (max-width: 580px) {
     header {
         height: 60px;
     }
@@ -219,11 +210,12 @@ section .summary .get_polymer {
         margin-top: -2px;
     }
     header .menu_btn img {
-        width: 29px;
+        width: 29px;  /* 크기 줄이기 */
     }
     header .menu_wrap {
         top: 6px;
     }
+
 
     section .inner {
         padding: 86px 30px 40px 30px;
@@ -238,22 +230,24 @@ section .summary .get_polymer {
 }
 
 
-@media screen and (max-width: 460px) {
+@media (max-width: 460px) {
     header .logo {
         margin-top: 0;
     }
     header .logo img {
         width: 120px;
     }
-    section .summary .get_polymer {
-        display: block;
-        margin-top: 30px;
+
+
+    section .summary p {
+        margin-bottom: 30px;
     }
 }
 
-@media screen and (max-width: 340px) {
+
+@media (max-width: 340px) {
     header .logo {
-        background: url("../img/logo2.svg") no-repeat 0 0;
+        background: url("../img/logo2.svg");
         width: 40px;
         height: 34px;
         margin-top: -3px;

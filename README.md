@@ -51,7 +51,7 @@ $(function () {
 #### index.html(Mobile Web)
 
 ```html
-<a class="desktop_mode" href="http://herop.me/polymer?desktopMode">DESKTOP MODE</a>
+<a class="desktop_mode" href="https://heropcode.github.io/Polymer-Responsive-Mobile-Fixed?desktopMode">DESKTOP MODE</a>
 ```
 
 #### mobile.css
@@ -86,7 +86,7 @@ if (!location.href.match(/desktopMode/i)) {
         || navigator.userAgent.match(/Windows Phone/i)
     ) {
         // 모바일 환경에서 접속했다면 모바일 페이지로 링크
-        location.href = "http://herop.me/polymer/mobile"
+        location.href = "https://heropcode.github.io/Polymer-Responsive-Mobile-Fixed/mobile"
     }
 }
 ```
